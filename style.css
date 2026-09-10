@@ -194,12 +194,10 @@ h1, h2{ font-weight: 600; margin: 0; letter-spacing: -0.01em; }
 /* ---------- Skills ---------- */
 .skills-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1px;
-  background: var(--line);
-  border: 1px solid var(--line);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
-.skill-card{ background: var(--surface); padding: 18px; }
+.skill-card{ background: var(--surface); padding: 18px; border: 1px solid var(--line); }
 .skill-card h3{
   font-size: 13px;
   font-weight: 600;
@@ -301,6 +299,7 @@ h1, h2{ font-weight: 600; margin: 0; letter-spacing: -0.01em; }
 @media (max-width: 760px){
   .about-grid{ grid-template-columns: 1fr; }
   .timeline-item{ grid-template-columns: 1fr; gap: 4px; }
+  .skills-grid{ grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 640px){
@@ -321,6 +320,7 @@ h1, h2{ font-weight: 600; margin: 0; letter-spacing: -0.01em; }
     border-top: 1px solid var(--line);
   }
   .nav-toggle{ display: flex; }
+  .skills-grid{ grid-template-columns: 1fr; }
 }
 
 /* ---------- Focus visibility ---------- */
