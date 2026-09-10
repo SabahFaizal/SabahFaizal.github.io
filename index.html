@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Muhammed Sabah Faizal — Procurement & MEP Engineer</title>
+<meta name="description" content="Muhammed Sabah Faizal — Procurement & Logistics Coordinator specializing in electrical and MEP projects, based in Abu Dhabi, UAE." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#home" class="wordmark">M. Sabah Faizal</a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- HOME / HERO -->
+  <section class="hero wrap">
+    <img id="heroPhoto" class="hero-photo" src="" alt="Muhammed Sabah Faizal" />
+    <div class="hero-meta">Procurement · Electrical & MEP · Abu Dhabi, UAE</div>
+    <h1 id="heroName">Muhammed Sabah Faizal</h1>
+    <p class="hero-title" id="heroTitle"></p>
+    <p class="hero-intro" id="heroIntro"></p>
+    <div class="hero-actions">
+      <a href="#" class="btn btn-primary" id="downloadCvBtn">Download CV</a>
+      <a href="#contact" class="btn btn-ghost">Contact</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap">
+    <div class="section-head">
+      <span class="section-index">About</span>
+      <h2>Background</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy" id="aboutCopy"></div>
+      <div class="about-facts">
+        <div class="fact">
+          <span class="fact-label">Based in</span>
+          <span class="fact-value">Abu Dhabi, UAE</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Education</span>
+          <span class="fact-value">B.Tech, Electrical & Electronics Engineering — PRIST University, 2022</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Languages</span>
+          <span class="fact-value">English, Malayalam, Hindi, Tamil</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Driving license</span>
+          <span class="fact-value">UAE driving license</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">Interests</span>
+          <span class="fact-value" id="interestsValue"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section wrap">
+    <div class="section-head">
+      <span class="section-index">Experience</span>
+      <h2>Career history</h2>
+    </div>
+    <div class="timeline" id="experienceList">
+      <!-- Rendered from content.js -->
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap">
+    <div class="section-head">
+      <span class="section-index">Skills</span>
+      <h2>Areas of expertise</h2>
+    </div>
+    <div class="skills-grid" id="skillsGrid">
+      <!-- Rendered from content.js -->
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section wrap">
+    <div class="section-head">
+      <span class="section-index">Projects</span>
+      <h2>Selected work</h2>
+    </div>
+    <div class="projects-grid" id="projectsGrid">
+      <!-- Rendered from content.js -->
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS & EDUCATION -->
+  <section id="certifications" class="section wrap">
+    <div class="section-head">
+      <span class="section-index">Certifications</span>
+      <h2>Education & certifications</h2>
+    </div>
+    <div class="cert-list" id="certList">
+      <!-- Rendered from content.js -->
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section wrap resume-section">
+    <div class="section-head">
+      <span class="section-index">Resume</span>
+      <h2>Full CV</h2>
+    </div>
+    <p class="resume-copy">
+      Download a complete, up to date PDF version of my CV for a full record of my experience,
+      responsibilities, and qualifications.
+    </p>
+    <a href="#" class="btn btn-primary" id="downloadCvBtn2">Download CV (PDF)</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap contact-section">
+    <div class="section-head">
+      <span class="section-index">Contact</span>
+      <h2>Get in touch</h2>
+    </div>
+    <div class="contact-grid">
+      <a href="mailto:PLACEHOLDER@example.com" class="contact-card">
+        <span class="contact-label">Email</span>
+        <span class="contact-value" id="emailValue">PLACEHOLDER@example.com</span>
+      </a>
+      <a href="#" class="contact-card" id="linkedinLink" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/PLACEHOLDER</span>
+      </a>
+      <a href="#" class="contact-card" id="phoneLink">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value" id="phoneValue"></span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Muhammed Sabah Faizal</span>
+    <span>Abu Dhabi, UAE</span>
+  </div>
+</footer>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
